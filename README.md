@@ -4,6 +4,8 @@ An Arduino-based Autonomous Obstacle Avoiding Robot developed to demonstrate obs
 
 This project utilizes ultrasonic sensing technology and intelligent motion control to detect obstacles in real-time and automatically select an alternate path without human intervention.
 
+---
+
 ## 📖 Project Overview
 
 The Autonomous Obstacle Avoiding Robot is designed to navigate independently while avoiding collisions with surrounding objects. The robot continuously measures the distance of nearby obstacles using an HC-SR04 ultrasonic sensor and adjusts its movement accordingly.
@@ -17,6 +19,7 @@ The project provides practical exposure to:
 * Motion Control Systems
 * Arduino Programming
 
+---
 
 ## ✨ Key Features
 
@@ -28,6 +31,7 @@ The project provides practical exposure to:
 * 🚗 Differential drive robot mechanism
 * 🔋 Portable battery-powered operation
 
+---
 
 ## 🛠️ Components Used
 
@@ -42,6 +46,7 @@ The project provides practical exposure to:
 | Battery Pack               | Power supply           |
 | Connecting Wires           | Electrical connections |
 
+---
 
 ## ⚙️ Working Principle
 
@@ -51,6 +56,7 @@ The HC-SR04 ultrasonic sensor continuously emits ultrasonic waves and receives t
 
 The Arduino calculates the distance using the received echo signal.
 
+---
 
 ### 2️⃣ Autonomous Navigation
 
@@ -63,9 +69,11 @@ When an obstacle is detected within a predefined distance range:
 
 This enables collision-free movement without human intervention.
 
+---
 
 ## 🔄 System Architecture
 
+```text
 HC-SR04 Ultrasonic Sensor
              │
              ▼
@@ -80,7 +88,9 @@ HC-SR04 Ultrasonic Sensor
              │
              ▼
     Autonomous Movement
+```
 
+---
 
 ## 🎯 Applications
 
@@ -91,6 +101,8 @@ HC-SR04 Ultrasonic Sensor
 * Obstacle Detection Systems
 * Smart Vehicle Concepts
 * Robotics Research Projects
+
+---
 
 ## 📚 Learning Outcomes
 
@@ -105,16 +117,23 @@ Through this project, the following concepts were explored:
 * Robotics System Integration
 * Problem Solving and Debugging
 
+---
+
 ## 📸 Project Gallery
 
 ### Robot Prototype
 
+```md
 ![Robot Prototype](assets/robot.jpg)
+```
 
 ### System Block Diagram
 
+```md
 ![Block Diagram](assets/block-diagram.png)
+```
 
+---
 
 ## 🔮 Future Improvements
 
@@ -125,6 +144,8 @@ Through this project, the following concepts were explored:
 * Line Following Capability
 * Autonomous Mapping and Path Planning
 * Smartphone App Control
+
+---
 
 ## 👨‍💻 Author
 
@@ -142,5 +163,7 @@ Through this project, the following concepts were explored:
 * Embedded Systems
 * Artificial Intelligence
 * Mechatronics Engineering
+
+---
 
 ⭐ If you found this project interesting, consider giving the repository a star.
